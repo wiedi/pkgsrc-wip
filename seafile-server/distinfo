@@ -1,8 +1,8 @@
 $NetBSD$
 
-SHA1 (seafile-server-6.0.9/v6.0.9-server.tar.gz) = 1190c18def0b87b9488e0bfc4f3d29b3d834739a
-RMD160 (seafile-server-6.0.9/v6.0.9-server.tar.gz) = fb97c168d2f04c991e7850e5f08a2296edd873a3
-SHA512 (seafile-server-6.0.9/v6.0.9-server.tar.gz) = c4c2821b8779ee6585b379d68001baa14af316fa840bc444f7f018e2314fe9947ceaf32808b735a6739ace56467f6d3068207e01ffd72ce988e77842901142ab
-Size (seafile-server-6.0.9/v6.0.9-server.tar.gz) = 695210 bytes
+SHA1 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 907a63a82c35c2c6bc183fad7ee74567b5e74a67
+RMD160 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 3b5b8d4d52d9b623aa9b4c336feaaf376e652fbd
+SHA512 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 35f794c32440a88755de3618ff89fafa933e7167d9b30ebf4378847b2ba3fb871c6816cbd1aa013ec09f08f16ec5bda547a846f03cc99801fa8f1bb131010785
+Size (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 706504 bytes
 SHA1 (patch-lib-utils.h) = 1fe5394ef1ee2132e20c94653ae67141d6ce7c8f
 SHA1 (patch-server_http-server.c) = b1b0de74025859b9896dc8e61b03135376a5ca9c

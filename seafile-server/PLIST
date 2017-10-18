@@ -6,10 +6,7 @@ bin/seaf-server-init
 bin/seafile-admin
 bin/seafile-controller
 bin/seafserv-gc
-include/seafile/seafile-error.h
 include/seafile/seafile-object.h
-include/seafile/seafile-rpc.h
-lib/libseafile.la
 lib/pkgconfig/libseafile.pc
 ${PYSITELIB}/seafile/__init__.py
 ${PYSITELIB}/seafile/__init__.pyc

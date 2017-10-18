@@ -2,7 +2,7 @@
 
 CATEGORIES=	net
 GITHUB_PROJECT=	seafile-server
-VERSION=	6.0.9
+VERSION=	6.2.2
 PKGNAME=	${GITHUB_PROJECT}-${VERSION}
 GITHUB_TAG=	v${VERSION}-server
 DISTNAME=	${GITHUB_TAG}
@@ -22,13 +22,15 @@ USE_LIBTOOL=	yes
 AUTOMAKE_REQD=	1.9
 
 USE_LANGUAGES+=	c c++
-USE_TOOLS+=	pkg-config automake aclocal autoheader autoconf gmake
+USE_TOOLS+=	pkg-config automake aclocal autoheader autoconf gmake gsed:build
 
 PY_PATCHPLIST=	yes
 PYTHON_VERSIONS_ACCEPTED= 27
 
-CPPFLAGS+=	-I${PREFIX}/include -I${PREFIX}/include/evhtp
-LDFLAGS+=	-L${PREFIX}/lib
+CPPFLAGS+=		-I${PREFIX}/include -I${PREFIX}/include/evhtp
+CPPFLAGS.SunOS+=	-Du_int32_t=uint32_t -Du_int64_t=uint64_t
+
+LDFLAGS+=		-L${PREFIX}/lib
 
 CONFIGURE_ARGS+=	--disable-fuse \
 			--disable-server
