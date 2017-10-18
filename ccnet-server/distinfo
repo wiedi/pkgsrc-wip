@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (seafile-ccnet/v6.0.9-server.tar.gz) = 689f61d25ce85e2ca34b96e1c6fdb3cbd25a1f1d
-RMD160 (seafile-ccnet/v6.0.9-server.tar.gz) = 663ef55d4e37f25f99959dd7a857e5a132f6b76a
-SHA512 (seafile-ccnet/v6.0.9-server.tar.gz) = acfb0f4ca987418c9eec89718a7073970bafbd3d69cbc44f85650ce83abb3ebcadd885dcbd403487c46d6085cd9034d94a52888e53034080ff9b0179ebb3d1ba
-Size (seafile-ccnet/v6.0.9-server.tar.gz) = 211349 bytes
+SHA1 (seafile-ccnet/v6.2.2-server.tar.gz) = 4c6c2863070c5e21437c076aa428fe36f188b1a2
+RMD160 (seafile-ccnet/v6.2.2-server.tar.gz) = 0366695c3a775ccce5f14b2e9225ff399355387e
+SHA512 (seafile-ccnet/v6.2.2-server.tar.gz) = 481875b7ba70cf058caa1b829f845c5d03c10cdd870a33efd0e491c3f5af9d42b685b70aa1dc85afaae954eed66c592f7c7351f633c84a76d5319f90073a6b1f
+Size (seafile-ccnet/v6.2.2-server.tar.gz) = 212759 bytes

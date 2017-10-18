@@ -1,5 +1,5 @@
 # $NetBSD$
-VERSION=	6.0.9
+VERSION=	6.2.2
 PKGNAME=	ccnet-server-${VERSION}
 CATEGORIES=	net
 GITHUB_TAG=	v${VERSION}-server
@@ -18,7 +18,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
 USE_LANGUAGES+=	c c++
-USE_TOOLS+=	pkg-config gmake aclocal autoheader automake autoconf
+USE_TOOLS+=	pkg-config gmake aclocal autoheader automake autoconf gsed:build
 
 PY_PATCHPLIST=	yes
 
