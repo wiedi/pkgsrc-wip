@@ -18,7 +18,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
 USE_LANGUAGES+=	c c++
-USE_TOOLS+=	pkg-config gmake automake autoconf aclocal autoheader
+USE_TOOLS+=	pkg-config gmake automake autoconf aclocal autoheader gsed:build
 
 DEPENDS+=	${PYPKGPREFIX}-simplejson-[0-9]*:../../converters/py-simplejson
 
