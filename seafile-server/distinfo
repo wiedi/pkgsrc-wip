@@ -4,5 +4,6 @@ SHA1 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 907a63a82c35c2c6bc183fad7ee74
 RMD160 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 3b5b8d4d52d9b623aa9b4c336feaaf376e652fbd
 SHA512 (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 35f794c32440a88755de3618ff89fafa933e7167d9b30ebf4378847b2ba3fb871c6816cbd1aa013ec09f08f16ec5bda547a846f03cc99801fa8f1bb131010785
 Size (seafile-server-6.2.2/v6.2.2-server.tar.gz) = 706504 bytes
+SHA1 (patch-controller_seafile-controller.c) = 2fe4bd499cb79fb5b3c148861b32acfa664e6a4f
 SHA1 (patch-lib-utils.h) = 1fe5394ef1ee2132e20c94653ae67141d6ce7c8f
 SHA1 (patch-server_http-server.c) = b1b0de74025859b9896dc8e61b03135376a5ca9c
